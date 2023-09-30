@@ -1,0 +1,12 @@
+{
+    "sections": {
+        "section-1":{
+            "title": "Section 1",
+            "content": "This is section 1",
+            "type": "test"
+        }
+    },
+    "order":[
+        "section-1"
+    ]
+}

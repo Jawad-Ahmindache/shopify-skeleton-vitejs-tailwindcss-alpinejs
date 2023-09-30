@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ 'style.css' | asset_url }}">
+    {{ content_for_header }}
+    <script type="module" defer src="{{ 'theme.js' | asset_url }}"></script>
+  </head>
+
+  <body>
+    {{ content_for_layout }}
+  </body>
+</html>
