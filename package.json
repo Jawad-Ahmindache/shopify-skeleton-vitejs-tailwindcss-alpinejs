@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite build --watch",
-    "shopify": "shopify theme dev --path ./theme --store <store>",
+    "shopify:dev": "shopify theme dev --path ./theme --store <store>",
     "build": "vite build"
   },
   "devDependencies": {
